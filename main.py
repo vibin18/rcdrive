@@ -1,6 +1,7 @@
 import drive
 import steering
 import time
+import RPi.GPIO as GPIO
 
 
 while True:
@@ -10,5 +11,6 @@ while True:
   time.sleep(2)
   steering.right()
   time.sleep(2)
+  GPIO.cleanup()
   
 

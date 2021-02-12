@@ -22,14 +22,14 @@ p.start(100)
 def forward():
   GPIO.output(in1,GPIO.HIGH)
   GPIO.output(in2,GPIO.LOW)
-  GPIO.cleanup()
+  
 
 def backward():
   GPIO.output(in1,GPIO.LOW)
   GPIO.output(in2,GPIO.HIGH)
-  GPIO.cleanup()
+  
 
 def stop():
   GPIO.output(in1,GPIO.LOW)
   GPIO.output(in2,GPIO.LOW)
-  GPIO.cleanup()
+  
