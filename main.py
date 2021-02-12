@@ -1,5 +1,5 @@
-import * from drive
-import * from steering
+from drive import *
+from steering import *
 import time
 
 
@@ -10,4 +10,4 @@ while True:
   time.sleep(2)
   steering.right()
   time.sleep(2)
-  
+
