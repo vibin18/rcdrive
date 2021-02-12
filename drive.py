@@ -1,7 +1,4 @@
 import RPi.GPIO as GPIO
-import curses
-import time
-from time import sleep
 
 in1 = 24
 in2 = 23
