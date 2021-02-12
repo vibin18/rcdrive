@@ -4,10 +4,10 @@ import time
 
 
 while True:
-  left()
+  steering.left()
   time.sleep(2)
-  stop()
+  steering.straight()
   time.sleep(2)
-  right()
+  steering.right()
   time.sleep(2)
 
