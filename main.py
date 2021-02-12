@@ -2,7 +2,7 @@ import drive
 import steering
 import time
 import RPi.GPIO as GPIO
-
+GPIO.setmode(GPIO.BCM)
 
 while True:
   steering.left()
