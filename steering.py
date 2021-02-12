@@ -19,11 +19,14 @@ p1.start(100)
 def right():
   GPIO.output(m2in1,GPIO.LOW)
   GPIO.output(m2in2,GPIO.HIGH)
+  GPIO.cleanup()
 
 def left():
   GPIO.output(m2in1,GPIO.HIGH)
   GPIO.output(m2in2,GPIO.LOW)
+  GPIO.cleanup()
 
 def straight():
   GPIO.output(m2in1,GPIO.LOW)
   GPIO.output(m2in2,GPIO.LOW)
+  GPIO.cleanup()
