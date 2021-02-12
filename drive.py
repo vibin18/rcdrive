@@ -17,7 +17,7 @@ GPIO.output(in2,GPIO.LOW)
 p=GPIO.PWM(en,40)
 
 
-p1.start(100)
+p.start(100)
 
 def forward():
   GPIO.output(in1,GPIO.HIGH)
