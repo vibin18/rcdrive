@@ -1,13 +1,13 @@
-from drive import *
-from steering import *
+import drive
+import steering
 import time
 
 
 while True:
-  steering.left()
+  left()
   time.sleep(2)
-  steering.stop()
+  stop()
   time.sleep(2)
-  steering.right()
+  right()
   time.sleep(2)
 
